@@ -15,5 +15,10 @@
   "env": {
     "FLASK_ENV": "production",
     "FLASK_APP": "main.py"
+  },
+  "functions": {
+    "api/**": {
+      "excludeFiles": "{.next,*.cache,node_modules,public,app}/**"
+    }
   }
 }
