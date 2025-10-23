@@ -1,7 +1,7 @@
 # main.py
 """
 Very minimal flask app for hosting my model
-""""
+"""
 
 from flask import Flask, request, render_template, redirect, url_for, jsonify
 import joblib
