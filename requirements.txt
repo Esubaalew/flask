@@ -12,3 +12,4 @@ Flask
 joblib
 scikit-learn==1.5.1
 numpy
+python-dotenv==1.1.1
